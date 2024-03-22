@@ -1,0 +1,124 @@
+body{
+    background-color: rgba(32, 33, 36,255);
+}
+header>div>p{
+    justify-content: center;
+    background-color: rgb(251, 255, 25);
+    border: black 1px solid;
+    margin: 1px 98% 40px 1px;
+    padding: 1px 1px 1px 6px ;
+   
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+    
+    
+}
+section >div{
+    margin: 2px 3px 2px 3px;
+    background-color: rgb(65, 65, 65);
+    display:inline-block solid;
+    font-size: 20px;  
+    padding: 5% 10% 5% 10%;
+    justify-content: space-evenly;
+    border-radius: 5px 5px 5px 5px;
+    
+
+}
+.seccion2>div{
+    margin: 2px 4px 2px 3px;
+    background-color:  rgb(65, 65, 65);
+    display:inline-block solid;
+    font-size: 20px;  
+    padding: 6% 14% 6% 14%;
+    justify-content: space-evenly;
+    border-radius: 5px 5px 5px 5px;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 3% 1% 0% 1%;
+    white-space: nowrap;
+
+}
+footer>.abajo{
+    margin-top: 1%;
+    justify-content: left;
+    padding: 1px 3px 1px 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+footer>.medio>p{
+    margin-right: 0px;
+    padding: 0% 0% 0% 0%;
+    justify-content: center;
+    display: inline-block;
+    flex-wrap: wrap ;
+}
+footer>.izq>p{
+    margin-top: 0%;
+    margin-bottom: 10%;
+    padding: 1% 1% 1% 1%;
+    justify-content: end;
+    flex-wrap: wrap;
+    display: inline-block;
+    
+}
+.content-container{
+    position: relative;
+    width: 300px;
+}
+.sample-image {
+    width: 150%;
+    height: 100%;
+    height: auto;
+  }
+.texto1 {
+    position: absolute;
+    /* Align the text to the left */
+    text-align: left;
+    /* Set the left property to the starting position you want */
+    left: 10px;
+    /* Set the bottom property to the distance you want between the image and the text */
+    bottom: 10px;
+    /* Set the text width as needed */
+    width: 300px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .texto2 {
+    position: absolute;
+    /* Align the text to the left */
+    text-align: right;
+    /* Set the left property to the starting position you want */
+    right: 20px;
+    /* Set the bottom property to the distance you want between the image and the text */
+    bottom: 150px;
+    /* Set the text width as needed */
+    width: 300px;
+    color: rgb(255, 255, 255);
+  }
+  .texto3 {
+    position: absolute;
+    /* Align the text to the left */
+    text-align: right;
+    /* Set the left property to the starting position you want */
+    right: 20px;
+    /* Set the bottom property to the distance you want between the image and the text */
+    bottom: 180px;
+    /* Set the text width as needed */
+    width: 300px;
+    color: rgb(255, 255, 255);
+  }
+
+.imagen2{
+    border-radius: 80% 80% 80% 80%;
+}
